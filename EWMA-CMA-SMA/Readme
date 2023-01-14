@@ -12,4 +12,4 @@ import yfinance as yfin
 import pandas_datareader as pdr
 yfin.pdr_override()
 
-data = yfin.download('TSLA')
+df_tesla = yfin.download('TSLA')
